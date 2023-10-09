@@ -1,5 +1,6 @@
 package com.example.reservation.service;
 
+import com.example.reservation.dto.ReservationDto;
 import com.example.reservation.model.Reservation;
 import com.example.reservation.model.Store;
 import com.example.reservation.model.User;
@@ -7,11 +8,9 @@ import com.example.reservation.model.enums.ReservationStatus;
 import com.example.reservation.repository.ReservationRepository;
 import com.example.reservation.repository.StoreRepository;
 import com.example.reservation.repository.UserRepository;
-import com.example.reservation.dto.ReservationDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
